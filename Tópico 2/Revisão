@@ -1,0 +1,32 @@
+Fundamentos de Programação (Parte 1)
+1. print()
+Exibe mensagens na tela.
+print("Olá, mundo!")
+
+2. input()
+Pede dados do usuário (sempre retorna texto).
+nome = input("Digite seu nome: ")
+
+3. Tipos de dados
+String: textos entre aspas → "João"
+int: número inteiro → 25
+float: número com vírgula → 1.75
+bool: verdadeiro ou falso → True, False
+
+4. Conversão de tipos
+Transformar input em número:
+idade = int(input("Idade: "))
+peso = float(input("Peso: "))
+
+5. Variáveis
+Guardam valores para uso posterior:
+nome = "Maria"
+
+6. Operações matemáticas
+soma = 2 + 3
+produto = 4 * 5
+divisao = 10 / 2
+
+7. f-strings
+Forma moderna de montar textos:
+print(f"Olá, {nome}. Você tem {idade} anos.")

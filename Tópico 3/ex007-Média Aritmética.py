@@ -1,0 +1,7 @@
+print('ESCOLA BOM FIM')
+materia = input('Qual materia sera as notas:')
+print(f"{materia:=^20}")
+print('Vamos para as notas:')
+n1 = float(input('Digite a primeira nota do aluno:'))
+n2 = float(input('Digite a segunda nota do aluno:'))
+print(f'A media desse bimeste foi de {(n1+n2)/2:.1f}')

@@ -1,0 +1,27 @@
+1. Operadores Aritméticos e Lógicos
+Aritméticos:
++ soma
+- subtração
+* multiplicação
+/ divisão
+// divisão inteira
+% resto da divisão (módulo)
+** potência
+
+#-----Ordem-de-precedência-----
+#1° - "()"
+#2° - "**"
+#3° - "* / // %"
+#4° - "+ -"
+
+Lógicos (retornam True ou False):
+== igual
+!= diferente
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+
+Exemplo:
+idade = 18
+print(idade >= 18)  # True

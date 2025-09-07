@@ -1,0 +1,19 @@
+    Em matemática, aprendemos o conceito de variável para
+representar incógnitas em equações do tipo x + 1 = 2, onde devemos determinar
+o valor de x, resolvendo a equação. Em programação, variáveis são utilizadas para
+armazenar valores e para dar nome a uma área de memória do computador onde
+armazenamos dados."
+    ex: "n" <-- variável "=" <-- gerador de valor "12" <--- valor da variável
+Variáveis e Tipos de Dados
+    Uma variável guarda um valor. Exemplo:
+nome = "João"         # String (texto)
+idade = 25            # Inteiro
+altura = 1.75         # Float (número com vírgula)
+estudando = True      # Booleano
+
+    A função input é utilizada para solicitar dados do usuário.
+Ela recebe um parâmetro, que é a mensagem a ser exibida, e retorna o valor digitado pelo usuário."
+Entrada de dados (input)
+    Você pode pedir dados ao usuário assim:
+nome = input("Digite seu nome: ")
+print("Olá,", nome)

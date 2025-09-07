@@ -1,0 +1,9 @@
+print ( " Oi " )
+comando "print"
+parênteses
+função aspas
+mensagem
+A função print informa que vamos exibir algo na tela. Pode-se dizer que a função
+exibe uma mensagem na tela do computador. Sempre que quisermos mostrar
+algo para o usuário do computador, como uma mensagem, uma pergunta ou o
+resultado de uma operação de cálculo, utilizaremos a função print.
