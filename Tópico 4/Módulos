@@ -1,0 +1,51 @@
+Módulos
+    Depois de criarmos várias funções, os programas ficaram muito grandes. Precisamos armazenar
+nossas funções em outros arquivos e de alguma forma usá-las, sem precisar reescrevê-las, ou pior, copiar e colar.
+    Python resolve o problema com módulos. Todo arquivo .py é um módulo, podendo ser importado com o comando import.
+
+Vejamos dois programas:
+entrada.py
+Módulo entrada (entrada.py)
+def valida_inteiro(mensagem, mínimo, máximo):
+    while True:
+        try:
+            v=int(input(mensagem))
+            if v >= mínimo and v <= máximo:
+                return v
+        else:
+            print("Digite um valor entre %d e %d" % (mínimo, máximo))
+except:
+print("Você deve digitar um número inteiro")
+
+Módulo soma (soma.py) que importa entrada
+import entrada
+L=[]
+for x in range(10):
+    L.append(entrada.valida_inteiro("Digite um número:", 0, 20))
+print("Soma: %d" % (sum(L)))
+
+    Utilizando o comando import foi possível chamar a função valida_inteiro, definida
+em entrada.py. Observe que, para chamar a função valida_inteiro escrevemos o
+nome do módulo antes do nome da função: entrada.valida_inteiro.
+    Usando módulos, podemos organizar nossas funções em arquivos diferentes e
+chamá-las quando necessário, sem precisar reescrever tudo.
+    Nem sempre queremos utilizar o nome do módulo para acessar uma função:
+valida_inteiro pode ser mais interessante que entrada.valida_inteiro.
+    Para importar a função valida_inteiro de forma a poder chamá-la sem o prefixo do
+módulo, substitua o import na listagem 8.35 por from entrada import valida_inteiro.
+    Depois, modifique o programa substituindo entrada.valida_inteiro por apenas
+valida_inteiro.
+    Você deve utilizar esse recurso com atenção, pois informar o nome do módulo antes
+da função é muito útil quando os programas crescem, servindo de dica para que
+se saiba que módulo define tal função, facilitando sua localização e evitando o que
+se chama de conflito de nomes. Dizemos que um conflito de nomes ocorre quando
+dois ou mais módulos definem funções com nomes idênticos. Nesse caso, utilizar a
+notação de chamada módulo.função resolve o conflito, pois a combinação do nome do
+módulo com o nome da função é única, evitando a dúvida de descobrir o módulo
+que define a função que estamos chamando.
+    Outra construção que deve ser utilizada com cuidado é from entrada import *.
+Nesse caso, estaríamos importando todas as definições do módulo entrada, e
+não apenas a função valida_inteiro. Essa construção é perigosa, porque se dois
+módulos definirem funções com o mesmo nome, a função utilizada no programa
+será a do último import. Isso é especialmente difícil de encontrar em programas
+grandes, e seu uso não é aconselhado.
