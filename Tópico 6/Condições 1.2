@@ -1,0 +1,48 @@
+Condições Aninhadas
+
+É quando temos várias opções de escolha.
+Em vez de só if e else, usamos também o elif (que significa else if → "senão se").
+
+ Estrutura básica
+if condição1:
+    comando1
+elif condição2:
+    comando2
+elif condição3:
+    comando3
+else:
+    comando_final
+
+O Python testa de cima para baixo.
+Assim que encontrar uma condição verdadeira, executa e ignora o resto.
+O else é opcional, só executa se nenhuma condição anterior for verdadeira.
+
+ Exemplo 1: notas de aluno
+nota = float(input("Digite sua nota: "))
+
+if nota >= 9:
+    print("Aprovado com excelência!")
+elif nota >= 7:
+    print("Aprovado!")
+elif nota >= 5:
+    print("Recuperação.")
+else:
+    print("Reprovado.")
+
+ Aqui temos várias possibilidades, mas só uma será executada.
+ Exemplo 2: classificação de idade
+idade = int(input("Digite sua idade: "))
+
+if idade < 12:
+    print("Criança")
+elif idade < 18:
+    print("Adolescente")
+elif idade < 60:
+    print("Adulto")
+else:
+    print("Idoso")
+
+ Resumindo:
+if → condição simples.
+if + else → condição composta.
+if + elif + else → condição aninhada (várias escolhas).

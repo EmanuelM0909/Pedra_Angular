@@ -1,0 +1,38 @@
+ O que é uma condição simples?
+
+É quando você quer que um pedaço de código seja executado apenas se uma condição for verdadeira.
+Se for falsa, não acontece nada.
+
+ Em Python usamos o if para isso.
+
+ Estrutura básica
+if condição:
+    comando
+
+if → significa "se".
+
+condição → uma expressão que pode ser True (verdadeiro) ou False (falso).
+comando → o que vai acontecer se a condição for verdadeira.
+Repare na identação (os 4 espaços ou tab depois do if), isso é obrigatório no Python.
+
+Exemplo 1: verificar se a pessoa é maior de idade
+
+idade = int(input("Digite sua idade: "))
+if idade >= 18:
+    print("Você é maior de idade!")
+
+Se a idade for 18 ou mais, aparece a mensagem.
+Se for menor, não acontece nada.
+
+ Exemplo 2: calcular multa de velocidade (sem else)
+velocidade = float(input("Digite a velocidade do carro: "))
+
+if velocidade > 80:
+    print("Você foi multado!")
+
+ Só aparece a mensagem se a condição for verdadeira.
+
+ Resumindo:
+Condição simples usa apenas if.
+O código dentro dele só executa se a condição for verdadeira.
+Se for falso, ele simplesmente ignora.

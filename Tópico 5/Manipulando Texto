@@ -1,0 +1,75 @@
+        Manipular texto em Python significa trabalhar com strings.
+Vou te mostrar os principais recursos passo a passo, bem iniciante:
+
+ 1. Criando uma string
+frase = "Aprendendo Python é divertido!"
+
+
+ 2. Fatiamento (pegar pedaços do texto)
+frase[0] → pega só a primeira letra (A)
+frase[0:10] → pega do índice 0 até o 9 (Aprendendo)
+frase[:10] → mesmo que acima
+frase[11:] → do índice 11 até o final (Python é divertido!)
+frase[-1] → última letra (!)
+
+ 3. Análise
+len(frase) → conta quantos caracteres tem
+frase.count("o") → conta quantas vezes aparece "o"
+frase.find("Python") → mostra a posição onde começa a palavra
+"Python" in frase → retorna True se existir
+
+ 4. Transformações
+frase.upper() → tudo maiúsculo
+frase.lower() → tudo minúsculo
+frase.capitalize() → primeira letra maiúscula, resto minúsculo
+frase.title() → primeiras letras de cada palavra maiúsculas
+frase.strip() → remove espaços extras do começo e do fim
+frase.replace("Python", "Java") → troca palavras
+
+ 5. Divisão e Junção
+frase.split() → divide em lista de palavras
+Ex: ["Aprendendo", "Python", "é", "divertido!"]
+" ".join(frase.split()) → junta de novo com espaço
+" - ".join(frase.split()) → junta com traços
+
+ Exemplo prático:
+frase = "   Olá Mundo Python   "
+print(frase.strip())         # "Olá Mundo Python"
+print(frase.upper())         # "OLÁ MUNDO PYTHON"
+print(len(frase))            # conta caracteres (incluindo espaços!)
+print(frase.split())         # ['Olá', 'Mundo', 'Python']
+
+nome = str(input('Qual é o seu nome completo: ')).strip()
+print(nome.upper())
+print(nome.lower())
+print(len(nome) - nome.count(' '))
+print(nome.find(' '))
+
+#_____Fatiamento_____
+#frase[4]
+#frase[4:6]
+#frase[4:8:2]
+#frase[:4]
+#frase[4:]
+#frase[4::8]
+#________Analise_______
+#len(frase)
+#frase.count('i',0,6)
+#frase.find('Tu')
+#'bom' in frase
+
+#______transformação______
+#frase.replace('Iae','Boa')
+#frase.upper()
+#frase.lower()
+#frase.capitalize()
+#frase.title()
+#frase.strip()
+#frase.rstrip()
+#frase.lstrip()
+
+#______Divisão______
+#frase.split()
+
+#______Junção_____
+#'-'.join(frase)
