@@ -3,7 +3,19 @@
 
 Repositório criado com o intuito de aprendizagem.
 
-linha de teste no site.
-
+"  linha de teste no site.  "
+#
 1º Tópico:
-introdução e conceitos.
+Introdução e conceitos.
+2° Tópico:
+Introdução a variáveis.
+3° Tópico:
+Operadores Aritméticos.
+4° Tópico:
+Módulos.
+5° Tópico:
+Manipulando texto.
+6° Tópico:
+Condições.
+7° Tópico:
+Estruturas de repetições.
