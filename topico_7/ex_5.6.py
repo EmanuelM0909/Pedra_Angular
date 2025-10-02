@@ -1,7 +1,8 @@
 '''Exercício 6: Altere o programa anterior para exibir os resultados no mesmo formato de uma tabuada: 2x1 = 2, 2x2=4, ...'''
-
-n = int(input("Tabuada de:"))
-x = 1
-while x <= 10:   # queremos apenas os 10 primeiros
-    print(n * x) # múltiplo de n
-    x= x + 1     # incrementa
+num = int(input('Tabuada de: '))
+cont = 0
+while cont <= 10:
+    mult = cont * num
+    print(mult)
+    cont += 1
+print(f'A cima temos a Tabuada de multiplicação de {num}')
