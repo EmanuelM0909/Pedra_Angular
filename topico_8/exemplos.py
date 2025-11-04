@@ -30,3 +30,18 @@ while True:
         break
     else:
         print(f'Você escoçheu o número {num[escolhido - 1]}')'''
+###
+'''l = [15, 7, 27, 39]
+print(l)
+p = int(input('Digite o valor a procurar '))
+achou = False
+cont = 0
+while cont < len(l):
+    if l[cont] == p:
+        achou = True
+        break
+    cont += 1
+if achou:
+    print(f'{p} achado na posição {cont}')
+else:
+    print(f'{p} não foi achado')'''
