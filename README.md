@@ -19,5 +19,7 @@ Manipulando texto.
 Condições.
 7° Tópico:
 Estruturas de repetições.
+While
+For
 8° Tópico:
 Listas, dicionários, tuplas e conjutos.
