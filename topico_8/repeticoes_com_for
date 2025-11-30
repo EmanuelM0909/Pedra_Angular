@@ -1,0 +1,16 @@
+🧠 O que é o for em Python?
+O for é um laço de repetição usado quando você sabe quantas vezes quer repetir uma ação.
+Ele percorre uma sequência de itens como listas, strings ou intervalos de números (range).
+'''for variavel in sequencia:'''
+    # faça algo
+for i in range(5):
+    print(i)
+0
+1
+2
+3
+4
+📚 Explicando:
+for i in range(5): Cria um laço que vai repetir 5 vezes.
+"i" é a variável que muda a cada repetição.
+print(i) mostra o valor de "i" em cada passo.

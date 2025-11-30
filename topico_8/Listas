@@ -1,0 +1,15 @@
+Listas
+São coleções de dados que podem ser modificadas.
+
+frutas = ["maçã", "banana", "laranja"]
+frutas.append("uva")
+print(frutas[0])  # maçã
+
+Métodos úteis:
+.append(): adiciona
+.remove(): remove
+len(lista): tamanho
+in: verifica se está na lista
+.sort() ou .sort(reverse=True)
+.insert(posição, elemento)
+.pop()
