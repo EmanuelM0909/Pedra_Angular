@@ -1,0 +1,111 @@
+  O que é um dicionário em Python?
+Um dicionário é uma estrutura de dados usada para guardar informações organizadas em pares:
+
+👉 chave → valor
+
+Pense assim:
+Lista → usa posição (índice)
+Dicionário → usa nome (chave)
+
+Exemplo mental:
+"nome" → "Emanuel"
+"idade" → 23
+"cidade" → "Lisboa"
+
+Você não pergunta “qual é o item da posição 0?”
+Você pergunta: qual é o valor da chave "nome"?
+
+🧠 Para que servem os dicionários?
+Use dicionários quando:
+Os dados têm significado
+Cada valor tem um rótulo
+Você quer acesso rápido e claro
+
+📌 Muito usados em:
+Cadastros (usuários, clientes, alunos)
+APIs / JSON
+Configurações
+Jogos (atributos de personagens)
+Sistemas reais (CPF, nome, idade, saldo…)
+
+🧱 Estrutura de um dicionário
+Um dicionário é criado com chaves {}:
+As chaves identificam os dados
+Os valores são as informações
+Cada par é separado por vírgula
+Conceito (sem código):
+Um dicionário é como uma ficha cadastral.
+
+🔑 Chaves (keys)
+As chaves:
+Geralmente são strings
+Não podem se repetir
+São únicas dentro do dicionário
+
+Exemplo lógico:
+"nome" → ok
+"nome" de novo → sobrescreve o anterior
+
+📄 Valores (values)
+Os valores podem ser:
+Números
+Textos
+Listas
+Outros dicionários
+Booleanos (True/False)
+Ou seja:
+
+📦 Um dicionário pode guardar qualquer coisa.
+🔍 Acessando dados
+Você acessa valores pela chave, não por índice.
+
+Mentalmente:
+“Me dá o valor da chave idade”
+Isso é muito mais legível do que:
+“Me dá o item da posição 2”
+
+✏️ Alterar valores
+Se a chave já existe:
+O valor é atualizado
+Se a chave não existe:
+Uma nova informação é criada
+
+📌 Isso faz os dicionários serem dinâmicos (crescem e mudam facilmente).
+➕ Adicionar novos dados
+Basta informar:
+Nova chave
+Novo valor
+O dicionário cresce sozinho — diferente de listas que dependem de posição.
+
+❌ Remover dados
+Você pode:
+Remover uma informação específica
+Limpar tudo
+Excluir o dicionário inteiro
+Muito útil quando:
+Um dado não é mais necessário
+Um cadastro precisa ser ajustado
+
+🔁 Percorrendo dicionários (loops)
+Você pode percorrer:
+Apenas as chaves
+Apenas os valores
+Chaves e valores juntos
+
+📌 Esse é um ponto MUITO importante para:
+Exibir cadastros
+Listar informações
+Criar relatórios
+
+🧩 Dicionários + listas (combinação poderosa)
+Muito comum na prática:
+Lista de dicionários
+Exemplo conceitual:
+
+Uma lista de pessoas
+Cada pessoa é um dicionário
+
+Isso permite:
+Cadastrar várias pessoas
+Buscar, listar, filtrar
+Criar sistemas reais
