@@ -1,0 +1,86 @@
+O QUE É UMA TUPLA?
+Uma tupla é uma lista que não pode ser modificada depois de criada.
+Ela guarda vários valores, em ordem, igual lista…
+mas é travada.
+Lista:
+[10, 20, 30]
+
+Tupla:
+(10, 20, 30)
+
+Visualmente muda só o ()
+Mas na prática muda tudo.
+
+A REGRA DE OURO
+Estrutura	Pode mudar depois?
+Lista	✅ Sim
+Tupla	❌ NÃO
+
+Tupla é imutável.
+Isso quer dizer:
+Não dá append
+Não dá remove
+Não dá alterar posição
+Não dá mexer em nada
+Criou → travou.
+
+POR QUE ISSO EXISTE?
+Porque em programação profissional, você precisa de dados que:
+• não podem ser alterados por engano
+• representam coisas fixas
+• são mais rápidos e seguros
+• não quebram sistemas
+
+Exemplos de uso real:
+Tupla representa
+Dias da semana
+Meses do ano
+Cores RGB
+Coordenadas
+Configurações
+Constantes
+Retornos múltiplos
+
+EXEMPLO CONCEITUAL
+Dias da semana:
+('SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB', 'DOM')
+Isso nunca deve mudar → tupla é perfeita.
+
+TUPLA É MAIS RÁPIDA
+
+Tupla:
+• ocupa menos memória
+• é mais rápida que lista
+• é mais segura
+• evita bugs invisíveis
+Por isso Python usa tupla por baixo do capô em muita coisa.
+
+PODER OCULTO
+Você já usou tupla sem perceber
+Quando faz:
+for i in range(3):
+
+O range devolve uma TUPLA.
+Quando faz:
+
+a, b = 10, 20
+
+Isso é uma tupla invisível sendo desempacotada.
+
+RESUMO
+
+Tupla é:
+• lista travada
+• constante
+• segura
+• rápida
+• profissional
+
+Se lista é “caderno”,
+tupla é “placa de metal gravada”.
+Se quiser, no próximo passo te mostro:
+• quando trocar lista por tupla
+• erros comuns
+• tuplas dentro de listas
+• tuplas em dicionários
+• truques ninja de tuplas

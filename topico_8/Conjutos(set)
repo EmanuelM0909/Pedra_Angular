@@ -1,0 +1,77 @@
+O que é um set?
+Um set é um tipo de estrutura que guarda valores únicos.
+Nunca repete. Nunca duplica. Nunca mente.
+
+Ele é usado quando você quer:
+eliminar repetições
+comparar grupos
+descobrir diferenças
+filtrar dados
+validar entradas
+analisar padrões
+
+Criando um set
+numeros = {1, 2, 3, 4, 5}
+
+
+Se tentar repetir:
+
+numeros = {1, 2, 2, 3, 3, 4}
+print(numeros)
+
+Saída:
+{1, 2, 3, 4}
+
+O set automaticamente purifica os dados.
+Usando set para limpar listas
+lista = [1,2,2,3,4,4,5,5,5]
+limpo = set(lista)
+print(limpo)
+
+Resultado:
+{1, 2, 3, 4, 4, 5} → vira → {1,2,3,4,5}
+É literalmente um filtro anti-lixo.
+
+Sets são mestres da comparação
+Eles sabem responder perguntas como:
+Pergunta	            Operação
+O que tem nos dois?	    interseção
+O que só tem em A?	    diferença
+Tudo que existe?	    união
+
+A = {1,2,3}
+B = {3,4,5}
+
+🔗 União
+print(A | B)
+→ {1,2,3,4,5}
+
+🎯 Interseção
+print(A & B)
+→ {3} (só o que existe nos dois)
+
+🧨 Diferença
+print(A - B)
+→ {1,2}
+
+Uso real:
+Sistema	Usa set para quê...
+Login	bloquear usuários duplicados
+Compras	detectar produtos repetidos
+IA	identificar padrões únicos
+Segurança	comparar listas de acesso
+Redes sociais	achar seguidores em comum
+
+⚠️ Regras do set
+
+❌ Não mantém ordem
+❌ Não aceita duplicatas
+❌ Não usa índice (set[0] não existe)
+
+✔️ Extremamente rápido
+✔️ Ideal para lógica, validação e filtros
+
+Frase:
+
+Listas armazenam dados.
+Sets dominam os dados.
