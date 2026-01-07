@@ -1,0 +1,50 @@
+🔤 Trabalhando com str (strings)
+
+Strings são textos.
+Tudo que você escreve entre aspas vira uma str.
+
+🧠 O que é uma str?
+nome = "Emanuel"
+cidade = "São Paulo"
+frase = "Python é incrível"
+
+
+Tudo isso é str.
+
+📏 Tamanho do texto — len()
+nome = "Emanuel"
+print(len(nome))
+
+
+→ Quantos caracteres o texto tem.
+
+🔍 Acessar letras pelo índice
+
+Toda string é uma lista de letras:
+
+nome = "Emanuel"
+print(nome[0])   # E
+print(nome[1])   # m
+print(nome[-1])  # l
+
+✂️ Fatiamento (pegar partes)
+nome = "Programador"
+print(nome[0:4])   # Prog
+print(nome[5:])    # ador
+print(nome[:7])    # Program
+
+🔠 Métodos mais importantes
+Método	Para que serve
+.lower()	tudo minúsculo
+.upper()	tudo maiúsculo
+.capitalize()	primeira letra maiúscula
+.title()	Toda Palavra Maiúscula
+.strip()	remove espaços extras
+.replace()	troca palavras
+.count()	conta letras
+.find()	encontra posição
+.startswith()	começa com
+.endswith()	termina com
+.isdigit()	é número?
+.isalpha()	só letras?
+.isalnum()	letras e números
