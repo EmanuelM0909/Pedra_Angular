@@ -1,5 +1,6 @@
 #Crie um programa em Python que:
-""" Pergunte vários nomes ao usuário dentro de um while True. Cada nome digitado deve ser colocado em uma lista.
+"""DESAFIO 1 — Aquecimento (nível: o que você já sabe bem)
+Pergunte vários nomes ao usuário dentro de um while True. Cada nome digitado deve ser colocado em uma lista.
 Se o usuário digitar vazio (“”), o programa deve parar. No final, o programa deve:
 Mostrar quantos nomes foram digitados. >>> Mostrar todos os nomes na ordem que foram informados.
 Mostrar os nomes em ordem alfabética. >>> Mostrar apenas o primeiro e o último nome digitado

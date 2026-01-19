@@ -8,3 +8,4 @@ if texto_3 == '':
     print("Nenhum character em comum")
 else:
     print(f"Character em comum: '{texto_3}'")
+
