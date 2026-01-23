@@ -1,0 +1,47 @@
+O QUE É UMA FUNÇÃO? (bem direto)
+Uma função é:
+    Um bloco de código com um nome, que faz uma tarefa específica
+e pode ser reutilizado.
+Em vez de repetir código, você chama a função.
+ESTRUTURA DE UMA FUNÇÃO
+    Forma básica:
+def nome_da_funcao():
+    # código aqui
+
+➡ def = definir
+➡ () = recebe dados (ou não)
+➡ : = começa o bloco
+
+REGRA DE OURO DAS FUNÇÕES
+Uma função faz UMA coisa bem feita
+    errado:
+imprimir
+mudar jogador
+verificar vitória
+    certo:
+só uma tarefa
+
+EXEMPLO:
+FLUXO DO JOGO COM FUNÇÕES (LÓGICA)
+INÍCIO
+ ↓
+mostrar_tabuleiro()
+ ↓
+pedir_jogada()
+ ↓
+verificar_jogada()
+ ↓
+marcar_tabuleiro()
+ ↓
+verificar_vitoria()
+ ↓
+trocar_jogador()
+ ↓
+LOOP
+
+O MAIS IMPORTANTE (GUARDA ISSO)
+
+Funções:
+✔ não são mágicas
+✔ não fazem nada sozinhas
+✔ só rodam quando são chamadas
