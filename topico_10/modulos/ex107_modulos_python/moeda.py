@@ -17,3 +17,6 @@ def metade(preco):
     res = preco / 2
     return res
 
+
+def moeda(param):
+    return None

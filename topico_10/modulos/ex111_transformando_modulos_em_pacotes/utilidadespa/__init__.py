@@ -1,0 +1,1 @@
+from ex111_transformando_modulos_em_pacotes.utilidadespa import moeda, dado
